@@ -1,9 +1,16 @@
+import Hero from "./components/Hero"
+import Highlights from "./components/Highlights"
+import Navbar from "./components/Navbar"
+
 function App() {
 
   return (
-    <>
-    <h1>Halo bang</h1>
-    </>
+  <main className="bg-black">
+    <Navbar></Navbar>
+    <Hero></Hero>
+    <Highlights/>
+  
+  </main>
   )
 }
 
